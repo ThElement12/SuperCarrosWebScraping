@@ -71,7 +71,6 @@ public class Steps {
 
     @And("Present the scraped data")
     public void presentTheScrapedData() {
-        webScraping.printAll();
-
+        webScraping.printMap();
     }
 }
