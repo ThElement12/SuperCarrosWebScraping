@@ -4,3 +4,5 @@ Feature: Supercarros Web Scraping
     Given Open the SuperCarros URL
     Then Search car by brand "Toyota" and model "Camry"
     And Click search button
+    Then Scrap the data from the results
+    And Present the scraped data
